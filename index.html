@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz med poeng og nivåer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz om generell kunnskap</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <input type="text" id="answer" placeholder="Skriv ditt svar her">
+            <button onclick="checkAnswer()">Svar</button>
+        </div>
+        <p id="feedback"></p>
+        <p>Poeng: <span id="score">0</span></p>
+        <p>Spørsmål: <span id="question-number">1</span> / <span id="total-questions"></span></p>
+        <p id="level">Nivå: 1</p>
+        <p id="final-result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
