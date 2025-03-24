@@ -1,7 +1,7 @@
 const questions = [
     { question: "Hva er hovedstaden i Norge?", answer: "Oslo", level: 1 },
     { question: "Hva er 2 + 2?", answer: "4", level: 1 },
-    { question: "Hvem skrev 'Romeo og Julie'?", answer: "Shakespeare", level: 2 },
+    { question: "Hvem skrev 'Romeo og Julie'?", answer: "Shakespeare", "shakespere", level: 2 },
     { question: "Hva er den største planeten i solsystemet?", answer: "Jupiter", level: 2 },
     { question: "Hva er verdens største hav?", answer: "Stillehavet", level: 3 },
     { question: "Hvilket grunnstoff har atomnummer 79?", answer: "Gull", level: 3 },
